@@ -778,13 +778,6 @@ body {
         width: calc(100% - 32px);
         left: 16px;
     }
-
-    .pre-footer__left {
-        width: 100%;
-        padding-left: 16px;
-        display: flex;
-        justify-content: center;
-    }
 }
 
 @media (max-width: 768px) {
@@ -792,6 +785,17 @@ body {
     .header {
         height: auto;
         padding: 16px;
+    }
+
+    .pre-footer__left {
+        width: 100%;
+        padding-left: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pre-footer__box {
+        gap: 16px;
     }
 
     .hungry-horses {
