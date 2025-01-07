@@ -796,11 +796,18 @@ body {
         padding: 16px;
     }
 
+    .hungry-horses .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .pre-footer__left-img1 {
+        top: -195px;
         height: 400px;
         width: 280px;
-        left: 40%;
-        transform: translateX(-40%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .pre-footer__left-img2 {
@@ -985,11 +992,6 @@ body {
 
     .pre-footer {
         height: auto;
-    }
-
-    .pre-footer__left-img1 {
-        top: -140px;
-        bottom: 0;
     }
 
     .pre-footer .wrapper::after {
