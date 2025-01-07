@@ -548,7 +548,7 @@ body {
         overflow: hidden;
     }
 
-    .hero__right h1 {
+    .hero__right h2 {
         max-width: 300px;
         width: 100%;
     }
@@ -590,7 +590,7 @@ body {
            object-fit: contain;
     }
 
-    .hero__right h1 {
+    .hero__right h2 {
         font-size: 30px;
     }
 
@@ -778,21 +778,14 @@ body {
         width: calc(100% - 32px);
         left: 16px;
     }
+
+    .pre-footer__left {
+        width: 100%;
+        padding-left: 16px;
+        display: flex;
+        justify-content: center;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 768px) {
 
@@ -872,7 +865,7 @@ body {
         box-sizing: border-box;
     }
 
-    .hero__right h1 {
+    .hero__right h2 {
         max-width: 100%;
         margin-bottom: 32px;
     }
